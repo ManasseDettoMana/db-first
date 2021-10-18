@@ -7,11 +7,13 @@ modello - stringa -  VARCHAR(20) - NOTNULL
 colore - stringa - VARCHAR(20) - NOTNULL
 peso - numero decimale -FLOAT(5,1) - NOTNULL
 posti - intero - TINYINT - NOTNULL
-prezzo_base - intero - MEDIUMINT - NOTNULL
-prezzo_massimo - intero - MEDIUMINT - NULL
+accessori - stringa - TEXT  -NOTNULL
+chilometri_percorsi - intero - MEDIUMINT - NOTNULL
+prezzo - intero - MEDIUMINT - NOTNULL
+prezzo_noleggio - intero MEDIUMINT - NULL
 potenza - intero - TINYINT - NOTNULL
 velocita_massima - intero - SMALLINT - NOTNULL
 tipo_carburante - stringa - VARCHAR(20) - NOTNULL
 targa - stringa -VARCHAR(10) - NULL
 data_immatricolazione - data - DATE - NOTNULL
-modelli_rimanenti - intero - SMALLINT - NULL
+
